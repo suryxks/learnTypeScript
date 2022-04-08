@@ -1,0 +1,34 @@
+{
+  "name": "gi6hrv",
+  "version": "0.0.0",
+  "description": "dotpath lookup module",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "node test/index.js && npm run lint",
+    "eject": "react-scripts eject",
+    "lint": "standard index.js test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jarofghosts/dotpather.git"
+  },
+  "keywords": [
+    "dotpath",
+    "utility"
+  ],
+  "author": "jesse keane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarofghosts/dotpather/issues"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0",
+    "standard": "^5.4.1",
+    "tape": "^4.4.0"
+  },
+  "dependencies": {
+    "typescript": "4.6.3"
+  }
+}

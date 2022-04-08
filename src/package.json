@@ -1,0 +1,30 @@
+{
+  "name": "dotpather",
+  "version": "1.0.0",
+  "description": "dotpath lookup module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard index.js test/index.js",
+    "test": "node test/index.js && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jarofghosts/dotpather.git"
+  },
+  "keywords": [
+    "dotpath",
+    "utility"
+  ],
+  "author": "jesse keane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarofghosts/dotpather/issues"
+  },
+  "devDependencies": {
+    "standard": "^5.4.1",
+    "tape": "^4.4.0"
+  },
+  "dependencies": {
+    "typescript": "4.6.3"
+  }
+}
